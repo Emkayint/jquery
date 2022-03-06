@@ -6,6 +6,6 @@ jQuery('p').click(function(){
     alert("This is a paragraph")
 });
 
-jQuery('p').click(function(){
+jQuery('img').click(function(){
     alert('This is an Image');
 });
