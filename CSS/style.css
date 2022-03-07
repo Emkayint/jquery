@@ -1,3 +1,10 @@
 .walrus-showing{
     display: none;
 }
+
+.unstyled{
+    list-style: none;
+}
+.unstyled li{
+    margin-top: 10px;
+}

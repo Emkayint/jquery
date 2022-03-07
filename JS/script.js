@@ -6,7 +6,12 @@
 
 $(document).ready(() => {
     $("button#hello").click(() => {
-        $("ul").prepend("<li>Hello</li>")
+        $("ul#user").prepend("<li>Hello</li>")
+        $('ul#browser').prepend('<li>Why Hello </li>')
+        $('li').css('background-color', 'green')
+        $('ul#user').children('li').first().click( function () {
+            $(this).remove();
+        })
     });
     $("button#goodbye").click(() => {
         $("ul").prepend("<li>Goodbye</li>")
