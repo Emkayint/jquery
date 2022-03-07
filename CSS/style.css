@@ -8,3 +8,7 @@
 .unstyled li{
     margin-top: 10px;
 }
+
+#story{
+    display: none;
+}
