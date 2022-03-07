@@ -7,16 +7,41 @@
     <title>Document</title>
     <script src="JS/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
-    <h1>Heeloo</h1>
+    <!-- <h1>Heeloo</h1>
     <p>Click me</p>
     <img src="" alt="I a am missing">
     <div class="walrus-showing">
         <p>What a cute walrus!</p>
-    </div>
+    </div> -->
 
+
+    <div class="container">
+        <h1>Talk to thee web page</h1>
+        <p>Click a button to say something to the web-page</p>
+
+        <button class="btn btn-primary" id="hello">Say hello</button>
+        <button class="btn btn-primary" id="goodbye">Say "Good bye"</button>
+        <button class="btn btn-primary" id="stop">Say "Stop Copying me!"</button>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h2>You said:</h2>
+                <ul class="unstyled">
+
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>The webpage said back</h2>
+                <ul class="unstyled">
+
+                </ul>
+            </div>
+        </div>
+    </div>
     <script src="JS/script.js"></script>
 </body>
 </html>

@@ -1,19 +1,17 @@
-// jQuery('h1').click(function(){
-//     alert('This is a heading tag');
+// $(document).ready(function(){
+//     $('p').click(function(){
+//         $('img').show();
+//     });
 // });
 
-// jQuery('p').click(function(){
-//     alert("This is a paragraph")
-// });
-
-// jQuery('img').click(function(){
-//     alert('This is an Image');
-// });
-
-$(document).ready(function(){
-    $("p").click(function(){
-        $('.walrus-showing').toggle();
-        $('.walrus-hidden').toggle();
-
-    })
-})
+$(document).ready(() => {
+    $("button#hello").click(() => {
+        $("ul").prepend("<li>Hello</li>")
+    });
+    $("button#goodbye").click(() => {
+        $("ul").prepend("<li>Goodbye</li>")
+    });
+    $("button#stop").click(() => {
+        $("ul").prepend("<li>Stop copying me</li>")
+    });
+});
